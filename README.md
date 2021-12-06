@@ -2,10 +2,14 @@
  Create a test example for Registration/Login WPF with WinAppDriver + Java
 
 
-Pre-Condition:
+Pre-Condition 1: Download and install WinAppDriver
 - Download WindAppDrive: https://github.com/Microsoft/WinAppDriver/releases
 - Follow "Install & Run WinAppDriver" section in this URL to install "WindowsApplicationDriver-1.2.99-win-x64.exe" : https://github.com/microsoft/WinAppDriver
 - After installed, go to folder "C:\Program Files (x86)\Windows Application Driver" and open "WinAppDriver.exe" by administrator permission to start server and keep it always open during the automation execution time.
+
+Pre-condition 2: Download and install Inspect
+- Download windows SDK from: https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
+- Follow guideline in: https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects
 
 Test Cases which designed:
 - TC01: Check message when submiting form with invalid required value
